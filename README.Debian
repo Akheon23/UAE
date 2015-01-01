@@ -1,0 +1,32 @@
+uae and e-uae
+-------------
+
+Note that the Debian package "uae" is based on the "original"
+uae homed at http://uae.coresystems.de/. R.C.Drummond's
+spinn-off "e-uae" is now packaged separately as "e-uae".
+
+Both packages may be installed at the same time.
+
+As both upstreams use the same default config file ('~/.uaerc'),
+the Debian e-uae package is patched to use '~/.e-uaerc' by
+default to avoid collisions.
+
+Amiga support
+-------------
+
+You may want to use some of your original amiga software, quoting from
+the upstream README:
+
+  In the "amiga" subdirectory you'll find two small Amiga programs that will
+  help you to generate the necessary image files. These are called transrom
+  and transdisk. Copy them to your Amiga and make them executable (by typing
+  "protect transrom rwed" and "protect transdisk rwed" in the Amiga shell
+  window).
+
+In this distribution the contents of the aforementioned "amiga"
+directory can be found in /usr/share/e-uae/amiga.tar.gz
+
+For more info about using those tools please read the upstream
+README section named "Tools / Transferring files"
+
+ -- Stephan Sürken <absurd@debian.org>, Wed,  2 Jun 2010 21:36:58 +0200

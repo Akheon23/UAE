@@ -1,0 +1,27 @@
+#!/bin/sh -e
+#
+# $Id: uae-confwrap,v 1.1 2002/02/03 22:55:07 absurd Exp $
+#
+# (c) Stephan A Suerken <absurd@debian.org>, GPLed.
+
+if [ -z "$1" ] || [ "$1" = "-h" ]; then
+    echo "Usage: uae-confwrap <config>"
+    echo
+    echo " Wrapper to manage different config files with uae."
+    echo " Runs uae with config file ${STORE_DIR}/<config>"
+    echo " copied to ~/.uaerc preserving changes in the config file."
+    echo ""
+    echo " !!! THIS SCRIPT WILL OVERWRITE ~/.uaerc WITHOUT WARNING !!!. "
+    exit 1
+fi
+
+UAERC_FILE="${HOME}/.uaerc"
+STORE_DIR="${HOME}/.uaerc-store"
+LOG_FILE="${HOME}/.uaerc-store"
+
+CONFIG="$1"
+
+echo "Running config \"${config}\" (Logging to ${STORE_DIR}/${CONFIG}.log"
+cp ${STORE_DIR}/$@ ${UAERC_FILE} 2>/dev/null || touch ${UAERC_FILE}
+uae 2>&1 | tee ${STORE_DIR}/$@.log
+cp ${UAERC_FILE} ${STORE_DIR}/$@

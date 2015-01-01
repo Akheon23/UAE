@@ -1,0 +1,565 @@
+This package was debianized by Stephan Suerken <absurd@debian.org> in 2007.
+
+The current Debian maintainer is Stephan Suerken <absurd@debian.org>.
+
+It was downloaded from: http://www.rcdrummond.net/uae/.
+
+For "proper" use, you usually need some sort third party ROM
+(Kickstart). Hence, this package is in category contrib, and thusly
+not part of the Debian GNU/Linux distribution
+
+Upstream Authors: Richard Drummond, Bernd Schmidt, Bernie Meyer, Toni
+Wilen, and others (see P.S. below).
+
+    e-uae, the Egalitarian Amiga Emulator (uae fork with win-uae patches).
+    Copyright (c) 2004-2007 Richard Drummond.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+    02110-1301, USA.
+
+On Debian systems, a verbatim uncompressed copy of the GPL-2 is
+available as /usr/share/common-licenses/GPL-2.
+
+The Debian packaging is © 2007-2008 Stephan Sürken
+<absurd@debian.org>, and is licensed under the GPL, see above.
+
+---
+P.S.: Quoting the upstream's README:
+
+  "E-UAE is open-source software and is made available under the terms of
+   the GPL. See the COPYING file included with the E-UAE archive for
+   details.
+
+   E-UAE is based on the work of dozens of contributors including Bernd
+   Schmidt (the original author and maintainer of UAE), Bernie Meyer (the
+   author of the x86 JIT compiler), Toni Wilen (the current maintainer of
+   WinUAE), and many more."
+
+Please refer to the individual files for the exact copyright
+information; what follows is just a semi-automated list made from the
+upstream source version 0.8.29-WIP4, and may not be fully correct:
+
+./amiga/source/uae-control.h: *  (c) 1996 Tauno Taipaleenmaki <tataipal@raita.oulu.fi>
+./amiga/source/uae-control.h: *  (c) 1998 Cloanto <info@cloanto.com>
+./amiga/source/uae-configuration.s:    ; (c) Toni Wilen 2004
+./amiga/source/transrom.c: * Copyright 1995,1996 Bernd Schmidt, Marcus Sundberg, Stefan Ropke,
+./amiga/source/transdisk.c: * Copyright 1995-97 Bernd Schmidt, Marcus Sundberg, Stefan Ropke,
+./amiga/source/uae_rcli.c: *  (c) 1997 by Samuel Devulder
+./amiga/source/timehack.c: * Copyright 1997, 1999 Bernd Schmidt
+./amiga/source/timehack.c: * Copyright 1999 Patrick Ohly
+./amiga/source/timehack.c: * Copyright 2003 Richard Drummond
+./amiga/source/mousehack.c: * Copyright 1997 Bernd Schmidt
+./amiga/source/uaectrl.c: *  (c) 1996 Tauno Taipaleenmaki <tataipal@raita.oulu.fi>  *
+./amiga/source/uae-control.c:*  (c) 1996 Tauno Taipaleenmaki <tataipal@raita.oulu.fi>   *
+./amiga/source/uae-control.c:*  (c) 1998 Cloanto <info@cloanto.com>                     *
+./src/gui-cocoa/cocoaui.m: * Copyright 1996 Bernd Schmidt
+./src/gui-cocoa/cocoaui.m: * Copyright 2004 Steven J. Saunders
+./src/od-win32/bsdsock.c: * Copyright 1997,98 Mathias Ortmann
+./src/od-win32/bsdsock.c: * Copyright 1999,2000 Brian King
+./src/od-win32/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/od-win32/posixemu.c: * Copyright 1997 Mathias Ortmann
+./src/od-win32/main.c:    write_log ("\n(c) 1995-2001 Bernd Schmidt   - Core UAE concept and implementation."
+./src/od-win32/main.c:	       "\n(c) 1998-2005 Toni Wilen      - Win32 port, core code updates."
+./src/od-win32/main.c:	       "\n(c) 1996-2001 Brian King      - Win32 port, Picasso96 RTG, and GUI."
+./src/od-win32/main.c:	       "\n(c) 1996-1999 Mathias Ortmann - Win32 port and bsdsocket support."
+./src/od-win32/main.c:	       "\n(c) 2000-2001 Bernd Meyer     - JIT engine."
+./src/od-win32/main.c:	       "\n(c) 2000-2005 Bernd Roesch    - MIDI input, many fixes."
+./src/od-win32/memory.c:  * Copyright 2004 Richard Drummond
+./src/od-win32/memory.h:  * Copyright 1996 Bernd Schmidt
+./src/od-win32/fsdb_win32.c:  * Copyright 1997 Mathias Ortmann
+./src/od-win32/fsdb_win32.c:  * Copyright 1999 Bernd Schmidt
+./src/od-win32/hrtimer.h: * (c) 2005 Richard Drummond
+./src/gfx-svga/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gfx-svga/svga.c:  * (c) 1995 Bernd Schmidt
+./src/gfx-svga/gfx.h:  * Copyright 1997 Bernd Schmidt
+./src/hotkeys.c:  * Copyright 2004 Richard Drummond
+./src/td-posix/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-posix/thread.h:  * Copyright 1997 Bernd Schmidt
+./src/td-posix/thread.h:  * Copyright 2004 Richard Drummond
+./src/td-posix/thread.c:  * Copyright 1997 Bernd Schmidt
+./src/td-posix/thread.c:  * Copyright 2004 Richard Drummond
+./src/disk.c:  * Copyright 1995 Hannu Rummukainen
+./src/disk.c:  * Copyright 1995-2001 Bernd Schmidt
+./src/disk.c:  * Copyright 2000-2003 Toni Wilen
+./src/disk.c:  * High Density Drive Handling by Dr. Adil Temel (C) 2001 [atemel1@hotmail.com]
+./src/serial.c:  * (c) 1996, 1997 Stefan Reinauer <stepan@linux.de>
+./src/serial.c:  * (c) 1997 Christian Schmitt <schmitt@freiburg.linux.de>
+./src/keybuf.c:  * Copyright 1995, 1997 Bernd Schmidt
+./src/td-win32/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-win32/thread.h:  * Copyright 1997 Mathias Ortmann
+./src/td-win32/thread.h:  * Copyright 2005 Richard Drummond
+./src/td-win32/thread.c:  * Copyright 1997 Mathias Ortmann
+./src/td-win32/thread.c:  * Copyright 2005 Richard Drummond
+./src/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/compemu_fpp.c:  * Copyright 1996 Herman ten Brugge
+./src/compemu_fpp.c:  * Adapted for JIT compilation (c) Bernd Meyer, 2000
+./src/jd-linuxold/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/jd-linuxold/joystick.c:  * Copyright 1997 Bernd Schmidt
+./src/jd-linuxold/joystick.c:  * Copyright 1998 Krister Walfridsson
+./src/jd-linuxold/joystick.c:  * Copyright 2003-2006 Richard Drummond
+./src/jd-linuxold/joystick.c:  * Copyright 2004 Nick Seow (Alternative Linux joystick device path)
+./src/ersatz.c:  * (c) 1995 Bernd Schmidt
+./src/traps.c:  * Copyright Richard Drummond 2005
+./src/traps.c:  * Copyright 1995, 1996 Bernd Schmidt
+./src/traps.c:  * Copyright 1996 Ed Hanway
+./src/gfxutil.c:  * (c) 1996 Bernd Schmidt, Ed Hanway, Samuel Devulder
+./src/gfx-curses/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gfx-curses/ncurses.c:  * Copyright 1997 Samuel Devulder, Bernd Schmidt
+./src/gfx-curses/gfx.h:  * Copyright 1997 Bernd Schmidt
+./src/test/test_optflag.c:  * Copyright Richard Drummond 2007
+./src/test/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-none/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-none/thread.h:  * Copyright 1997 Bernd Schmidt
+./src/td-none/thread.c:  * Copyright 2004 Richard Drummond
+./src/od-macosx/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/od-macosx/memory.c:  * Copyright 2004 Richard Drummond
+./src/od-macosx/memory.h:  * Copyright 1996 Bernd Schmidt
+./src/od-macosx/hrtimer.h: * (c) 2005 Richard Drummond
+./src/bsdsocket.c:  * Copyright 1997, 1998 Mathias Ortmann
+./src/bsdsocket.c:  * Library initialization code (c) Tauno Taipaleenmaki
+./src/sd-none/sound.c:  * Copyright 1997 Bernd Schmidt
+./src/sd-none/sound.c:  * Copyright 2003 Richard Drummond
+./src/sd-none/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/sd-none/sound.h:  * Copyright 1997 Bernd Schmidt
+./src/savestate.c:  * (c) 1999-2001 Toni Wilen
+./src/jd-amigainput/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/jd-amigainput/joystick.c:  * Copyright 2005 Richard Drummond
+./src/blkdev-libscg.c:  * Copyright 2004-2005 Richard Drummond
+./src/blkdev-libscg.c:  * Copyright 1995 Bernd Schmidt
+./src/blkdev-libscg.c:  * Copyright 1999 Patrick Ohly
+./src/gui-muirexx/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gui-muirexx/ami-rexx.c:  * Copyright 1996 Samuel Devulder.
+./src/gui-muirexx/ami-rexx.c:  * Copyright 2004-2006 Richard Drummond
+./src/gui-muirexx/UAEWB.aux: * (c) 26.01.98 Samuel Devulder
+./src/gui-muirexx/ami-gui.c:  * Copyright 1996 Bernd Schmidt, Samuel Devulder
+./src/gui-muirexx/ami-gui.c:  * Copyright 2004-2006 Richard Drummond
+./src/gui-muirexx/UAEWB.rexx: * (c) By Samuel Devulder, 01/98.
+./src/gui-muirexx/UAEWB.rexx: * (c)    Richard Drummond 12/2004
+./src/gui-muirexx/UAEWB.rexx:MUIA_Application_Copyright = 0x8042ef4d
+./src/gui-muirexx/UAEGUI.rexx:MUIA_Application_Copyright = 0x8042ef4d
+./src/native2amiga.c:  * Copyright 1999 Patrick Ohly
+./src/od-generic/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/od-generic/main.c: * Copyright 2004 Richard Drummond
+./src/od-generic/memory.c:  * Copyright 2004 Richard Drummond
+./src/od-generic/memory.h:  * Copyright 1996 Bernd Schmidt
+./src/od-generic/hrtimer.h: * (c) 2005 Richard Drummond
+./src/uaeexe.c: *  (c) 1997 by Samuel Devulder
+./src/tools/configure:# Copyright (C) 1992, 1993, 1994, 1995, 1996, 1998, 1999, 2000, 2001,
+./src/tools/configure:Copyright (C) 1992, 1993, 1994, 1995, 1996, 1998, 1999, 2000, 2001,
+./src/tools/configure:# define ISLOWER(c) ('a' <= (c) && (c) <= 'z')
+./src/tools/configure:# define TOUPPER(c) (ISLOWER(c) ? 'A' + ((c) - 'a') : (c))
+./src/tools/configure:# define ISLOWER(c) \
+./src/tools/configure:		   (('a' <= (c) && (c) <= 'i') \
+./src/tools/configure:		     || ('j' <= (c) && (c) <= 'r') \
+./src/tools/configure:		     || ('s' <= (c) && (c) <= 'z'))
+./src/tools/configure:# define TOUPPER(c) (ISLOWER(c) ? ((c) | 0x40) : (c))
+./src/tools/configure:Copyright (C) 2006 Free Software Foundation, Inc.
+./src/gui-gtk/util.h: * Copyright 2003-2004 Richard Drummond
+./src/gui-gtk/cpuspeedpanel.c: * Copyright 2003-2005 Richard Drummond
+./src/gui-gtk/chooserwidget.h: * Copyright 2003-2004 Richard Drummond
+./src/gui-gtk/led.h:  * Copyright 2004 Martin Garton
+./src/gui-gtk/led.h:  * Copyright 2006 Richard Drummond
+./src/gui-gtk/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gui-gtk/chipsetspeedpanel.c: * Copyright 2003-2004 Richard Drummond
+./src/gui-gtk/gtkui.c: * Copyright 1997, 1998 Bernd Schmidt
+./src/gui-gtk/gtkui.c: * Copyright 1998 Michael Krause
+./src/gui-gtk/gtkui.c: * Copyright 2003-2007 Richard Drummond
+./src/gui-gtk/led.c:  * Copyright 2004 Martin Garton
+./src/gui-gtk/led.c:  * Copyright 2006 Richard Drummond
+./src/gui-gtk/floppyfileentry.c: * Copyright 2004 Martin Garton
+./src/gui-gtk/floppyfileentry.c: * Copyright 2004 Richard Drummond
+./src/gui-gtk/chooserwidget.c: * Copyright 2003-2004 Richard Drummond
+./src/gui-gtk/cpuspeedpanel.h: * Copyright 2003-2005 Richard Drummond
+./src/gui-gtk/util.c: * Copyright 2003-2004 Richard Drummond
+./src/gui-gtk/chipsettypepanel.c: * Copyright 2003-2004 Richard Drummond
+./src/gui-gtk/chipsetspeedpanel.h: * Copyright 2003-2004 Richard Drummond
+./src/gui-gtk/cputypepanel.c: * Copyright 2003-2004 Richard Drummond
+./src/gfx-beos/be-Input.cpp://  (c) 2004-2005 Richard Drummond
+./src/gfx-beos/be-Input.cpp://  (c) 2000-2001 Axel Doerfler
+./src/gfx-beos/be-Input.cpp://  (c) 1999 Be/R4 Sound - Raphael Moll
+./src/gfx-beos/be-Input.cpp://  (c) 1998-1999 David Sowsy
+./src/gfx-beos/be-Input.cpp://  (c) 1996-1998 Christian Bauer
+./src/gfx-beos/be-Input.cpp://  (c) 1996 Patrick Hanevold
+./src/gfx-beos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gfx-beos/be-Window.h://  (c) 2000-2001 Axel Doerfler
+./src/gfx-beos/be-Window.h://  (c) 1999 Be/R4 Sound - Raphael Moll
+./src/gfx-beos/be-Window.h://  (c) 1998-1999 David Sowsy
+./src/gfx-beos/be-Window.h://  (c) 1996-1998 Christian Bauer
+./src/gfx-beos/be-Window.h://  (c) 1996 Patrick Hanevold
+./src/gfx-beos/be-UAE.h://  (c) 2000-2001 Axel Doerfler
+./src/gfx-beos/be-UAE.h://  (c) 1999 Be/R4 Sound - Raphael Moll
+./src/gfx-beos/be-UAE.h://  (c) 1998-1999 David Sowsy
+./src/gfx-beos/be-UAE.h://  (c) 1996-1998 Christian Bauer
+./src/gfx-beos/be-UAE.h://  (c) 1996 Patrick Hanevold
+./src/gfx-beos/gfx.h:  * Copyright 2004 Richard Drummond
+./src/gfx-beos/be-UAE.cpp://  (c) 2004-2005 Richard Drummond
+./src/gfx-beos/be-UAE.cpp://  (c) 2000-2001 Axel Doerfler
+./src/gfx-beos/be-UAE.cpp://  (c) 1999 Be/R4 Sound - Raphael Moll
+./src/gfx-beos/be-UAE.cpp://  (c) 1998-1999 David Sowsy
+./src/gfx-beos/be-UAE.cpp://  (c) 1996-1998 Christian Bauer
+./src/gfx-beos/be-UAE.cpp://  (c) 1996 Patrick Hanevold
+./src/gfx-beos/be-Window.cpp://  (c) 2004-2007 Richard Drummond
+./src/gfx-beos/be-Window.cpp://  (c) 2000-2001 Axel Doerfler
+./src/gfx-beos/be-Window.cpp://  (c) 1999 Be/R4 Sound - Raphael Moll
+./src/gfx-beos/be-Window.cpp://  (c) 1998-1999 David Sowsy
+./src/gfx-beos/be-Window.cpp://  (c) 1996-1998 Christian Bauer
+./src/gfx-beos/be-Window.cpp://  (c) 1996 Patrick Hanevold
+./src/newcpu.c:  * (c) 1995 Bernd Schmidt
+./src/md-68k/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/md-68k/rpt.h:  * Copyright 1998 Bernd Schmidt
+./src/md-68k/support.c:  * Copyright 1996 Bernd Schmidt
+./src/md-68k/support.c:  * Copyright 2004-2005 Richard Drummond
+./src/md-68k/cpuopti:# (c) By Samuel Devulder, 04/97.
+./src/md-68k/maccess.h:  * Copyright 1996 Bernd Schmidt
+./src/md-68k/m68kops.h: * (c) 2004-2005 Richard Drummond
+./src/md-68k/m68kops.h: * Copyright 1996 Bernd Schmidt, Samuel Devulder
+./src/md-68k/m68k.h:  * Copyright 1996 Bernd Schmidt, Samuel Devulder
+./src/md-68k/m68k.h:  * Copyright 2004-2007 Richard Drummond
+./src/main.c:  * Copyright 1995 Ed Hanway
+./src/main.c:  * Copyright 1995, 1996, 1997 Bernd Schmidt
+./src/main.c:  * Copyright 2006-2007 Richard Drummond
+./src/main.c:    write_log ("\nCopyright 2003-2007 Richard Drummond and contributors.\n");
+./src/main.c:    write_log ("UAE    - copyright 1995-2002 Bernd Schmidt;\n");
+./src/main.c:    write_log ("WinUAE - copyright 1999-2007 Toni Wilen.\n");
+./src/zfile.c:  * (c) 1996 Samuel Devulder, Tim Gunn
+./src/include/picasso96.h: * Copyright 1997 Brian King <Brian_King@Mitel.com, Brian_King@Cloanto.com>
+./src/include/tui.h:  * Copyright 1996 Tim Gunn, Bernd Schmidt
+./src/include/sysdeps.h:  * Copyright 1996, 1997 Bernd Schmidt
+./src/include/fsdb.h:  * Copyright 1999 Bernd Schmidt
+./src/include/keybuf.h:  * (c) 1996 Bernd Schmidt
+./src/include/uae_string.h: * (c) 2003-2007 Richard Drummond
+./src/include/uae_string.h: * (c) 1995-2002 Bernd Schmidt
+./src/include/genblitter.h:  * Copyright 1995,1996 Bernd Schmidt
+./src/include/genblitter.h:  * Copyright 1996 Alessandro Bissacco
+./src/include/fpp-ieee.h:  * Copyright 1999 Sam Jordan
+./src/include/fpp-ieee.h:  * Copyright 2007 Richard Drummond
+./src/include/hotkeys.h:  * Copyright 2004 Richard Drummond
+./src/include/options.h:  * Copyright 1995, 1996 Ed Hanway
+./src/include/options.h:  * Copyright 1995-2001 Bernd Schmidt
+./src/include/options.h:#define QUADRUPLIFY(c) (((c) | ((c) << 8)) | (((c) | ((c) << 8)) << 16))
+./src/include/inputdevice.h:  * Copyright 1995 Bernd Schmidt
+./src/include/inputdevice.h:  * Copyright 2001-2002 Toni Wilen
+./src/include/fsusage.h:   Copyright (C) 1991, 1992 Free Software Foundation, Inc.
+./src/include/uae_endian.h: * (c) 2003-2007 Richard Drummond
+./src/include/uae_endian.h: * (c) 1995-2002 Bernd Schmidt
+./src/include/version.h: * (c) 2006 Richard Drummond
+./src/include/autoconf.h:  * (c) 1996 Ed Hanway
+./src/include/uae.h:  * Copyright 1996 Bernd Schmidt
+./src/include/uae.h:  * Copyright 2006-2007 Richard Drummond
+./src/include/events.h:  * Copyright 1995-1998 Bernd Schmidt
+./src/include/driveclick.h:  * Copyright 2004 James Bagg, Toni Wilen
+./src/include/disk.h:  * (c) 1995 Bernd Schmidt
+./src/include/blitter.h:  * (c) 1995 Bernd Schmidt
+./src/include/zfile.h:  * (c) 1996 Samuel Devulder
+./src/include/native2amiga.h:  * Copyright 1999 Patrick Ohly
+./src/include/audio.h:  * Copyright 1995, 1996, 1997 Bernd Schmidt
+./src/include/gensound.h:  * Copyright 1997 Bernd Schmidt
+./src/include/traps.h:  * Copyright Richard Drummond 2005
+./src/include/traps.h:  * Copyright 1995, 1996 Bernd Schmidt
+./src/include/traps.h:  * Copyright 1996 Ed Hanway
+./src/include/execlib.h:  * Copyright 1996 Bernd Schmidt
+./src/include/savestate.h:  * (c) 1999-2001 Toni Wilen
+./src/include/newcpu.h:  * Copyright 1995 Bernd Schmidt
+./src/include/sleep.h:  * Copyright 2003-2005 Richard Drummond
+./src/include/keyboard.h:  * (c) 1995 Bernd Schmidt
+./src/include/custom_private.h:  * Copyright Richard Drummond 2006
+./src/include/custom_private.h:  * Copyright (c) Bernd Schmidmt 1995
+./src/include/custom.h:  * (c) 1995 Bernd Schmidt
+./src/include/osemu.h:  * Copyright 1996 Bernd Schmidt
+./src/include/memory.h:  * Copyright 1995 Bernd Schmidt
+./src/include/writelog.h: * (c) 2003-2007 Richard Drummond
+./src/include/writelog.h: * (c) 1995-2002 Bernd Schmidt
+./src/include/fpp-unknown.h:  * Copyright 1996 Herman ten Brugge
+./src/include/gui.h:  * Copyright 1996 Bernd Schmidt
+./src/include/uaeexe.h: *  (c) 1997 by Samuel Devulder
+./src/include/debug.h:  * (c) 1995 Bernd Schmidt
+./src/include/uae_malloc.h: * (c) 2003-2007 Richard Drummond
+./src/include/uae_malloc.h: * (c) 1995-2002 Bernd Schmidt
+./src/include/joystick.h:  * Copyright 1995 Bernd Schmidt
+./src/include/unzip.h:   Copyright (C) 1998 Gilles Vollant
+./src/include/cia.h:  * (c) 1995 Bernd Schmidt
+./src/include/xwin.h:  * Copyright 1995-1997 Bernd Schmidt
+./src/include/xwin.h:  * Copyright 2005 Richard Drummond
+./src/include/ersatz.h:  * (c) 1995 Bernd Schmidt
+./src/include/scsidev.h:  * (c) 1995 Bernd Schmidt (hardfile.c)
+./src/include/scsidev.h:  * (c) 1999 Patrick Ohly
+./src/include/scsidev.h:  * (c) 2001-2002 Toni Wilen
+./src/include/filesys.h:  * Copyright 1997 Bernd Schmidt
+./src/include/hrtimer.h: * (c) 2005 Richard Drummond
+./src/include/serial.h:  * Copyright 1996, 1997 Stefan Reinauer <stepan@linux.de>
+./src/include/serial.h:  * Copyright 1997 Christian Schmitt <schmitt@freiburg.linux.de>
+./src/include/bsdsocket.h:  * Copyright 1997,98 Mathias Ortmann
+./src/include/uae_types.h: * (c) 2003-2007 Richard Drummond
+./src/include/uae_types.h: * (c) 1995-2002 Bernd Schmidt
+./src/include/drawing.h: * Copyright 1996-1998 Bernd Schmidt
+./src/include/drawing.h:# define CONVERT_RGB(c) \
+./src/include/drawing.h:# define CONVERT_RGB(c) \
+./src/include/drawing.h:#define CONVERT_RGB(c) 0
+./src/include/commpipe.h:  * Copyright 1997, 2001 Bernd Schmidt
+./src/sd-solaris/sound.c:  * Copyright 1996, 1997 Manfred Thole
+./src/sd-solaris/sound.c:  * Copyright 2007       Richard Drummond
+./src/sd-solaris/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/sd-solaris/sound.h:  * Copyright 1996, 1997 Manfred Thole
+./src/sd-solaris/sound.h:  * Copyright 2007       Richard Drummond
+./src/md-i386-gcc/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/md-i386-gcc/rpt.h:  * Copyright 1997, 1998 Bernd Schmidt
+./src/md-i386-gcc/rpt.h:  * Copyright 2003-2005 Richard Drummond
+./src/md-i386-gcc/support.c:  * Copyright 1996 Bernd Schmidt
+./src/md-i386-gcc/support.c:  * Copyright 2003-2005 Richard Drummond
+./src/md-i386-gcc/maccess.h:  * Copyright 1996 Bernd Schmidt
+./src/md-i386-gcc/m68kops.h: * (c) 2004-2007 Richard Drummond
+./src/md-i386-gcc/m68k.h:  * Copyright 1996 Bernd Schmidt
+./src/md-i386-gcc/m68k.h:  * Copyright 2004-2007 Richard Drummond
+./src/od-beos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/od-beos/main.cpp: * Copyright 2004 Richard Drummond
+./src/od-beos/memory.c:  * Copyright 2004 Richard Drummond
+./src/od-beos/memory.h:  * Copyright 1996 Bernd Schmidt
+./src/od-beos/hrtimer.h: * (c) 2005 Richard Drummond
+./src/enforcer.c: * Copyright 2000-2003 Bernd Roesch and Sebastian Bauer
+./src/enforcer.c: * Copyright 2004      Richard Drummond
+./src/ar.c: * (c) 2000-2002 Toni Wilen <twilen@arabuusimiehet.com>
+./src/ar.c: * (c) 2003 Mark Cox <markcox@email.com>
+./src/gencpu.c: * Copyright 1995, 1996, 1997, 1998, 1999, 2000 Bernd Schmidt
+./src/unzip.c:const char unz_copyright[] =
+./src/unzip.c:   " unzip 0.15 Copyright 1998 Gilles Vollant ";
+./src/unzip.c:    if (unz_copyright[0]!=' ')
+./src/fsdb.c:  * Copyright 1999 Bernd Schmidt
+./src/gfx-x11/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gfx-x11/gfx.h:  * Copyright 2004 Richard Drummond
+./src/gfx-x11/xwin.c:  * Copyright 1995, 1996 Bernd Schmidt
+./src/gfx-x11/xwin.c:  * Copyright 1996 Ed Hanway, Andre Beck, Samuel Devulder, Bruno Coste
+./src/gfx-x11/xwin.c:  * Copyright 1998 Marcus Sundberg
+./src/gfx-x11/xwin.c:  * Copyright 2003-2007 Richard Drummond
+./src/gfx-x11/x11keys.c:  * Copyright 1995, 1996 Bernd Schmidt
+./src/gfx-x11/x11keys.c:  * Copyright 1996 Ed Hanway, Andre Beck, Samuel Devulder, Bruno Coste
+./src/gfx-x11/x11keys.c:  * Copyright 1998 Marcus Sundberg
+./src/gfx-x11/x11keys.c:  * Copyright 2003-2004 Richard Drummond
+./src/md-ppc/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/md-ppc/rpt.h:  * Copyright 1998 Bernd Schmidt
+./src/md-ppc/support.c:  * Copyright 1996 Bernd Schmidt
+./src/md-ppc/maccess.h:  * Copyright 1996 Bernd Schmidt
+./src/md-ppc/m68k.h:  * Copyright 1996 Bernd Schmidt
+./src/audio.c:  * Copyright 1995, 1996, 1997 Bernd Schmidt
+./src/audio.c:  * Copyright 1996 Marcus Sundberg
+./src/audio.c:  * Copyright 1996 Manfred Thole
+./src/audio.c:  * Copyright 2006 Toni Wilen
+./src/bsdsocket-posix-new.c:  * Copyright 2000-2001 Carl Drougge <carl.drougge@home.se> <bearded@longhaired.org>
+./src/bsdsocket-posix-new.c:  * Copyright 2003-2005 Richard Drummond
+./src/bsdsocket-posix-new.c:  * Copyright 2004      Jeff Shepherd
+./src/md-ppc-gcc/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/md-ppc-gcc/rpt.h:  * Copyright 1998 Bernd Schmidt
+./src/md-ppc-gcc/rpt.h:  * Copyright 2005 Richard Drummond
+./src/md-ppc-gcc/support.c:  * Copyright 1996 Bernd Schmidt
+./src/md-ppc-gcc/support.c:  * Copyright 2003-2005 Richard Drummond
+./src/md-ppc-gcc/maccess.h:  * Copyright 1996 Bernd Schmidt
+./src/md-ppc-gcc/m68kops.h: * (c) 2004-2007 Richard Drummond
+./src/md-ppc-gcc/m68kops.h: * Copyright 1996 Bernd Schmidt
+./src/md-ppc-gcc/m68k.h:  * Copyright 1996 Bernd Schmidt
+./src/md-ppc-gcc/m68k.h:  * Copyright 2004-2007 Richard Drummond
+./src/targets/t-beos.h:  * Copyright 1997 Bernd Schmidt
+./src/targets/t-win32.h:  * Copyright 1997 Mathias Ortmann
+./src/targets/t-amiga.h:  * Copyright 1997 Bernd Schmidt
+./src/targets/t-amiga.h:  * Copyright 2003-2006 Richard Drummond
+./src/targets/t-unix.h:  * Copyright 1997 Bernd Schmidt
+./src/sd-alsa/sound.c:  * Copyright 1997 Bernd Schmidt
+./src/sd-alsa/sound.c:  * Copyright 2004 Heikki Orsila
+./src/sd-alsa/sound.c:  * Copyright 2006-2007 Richard Drummond
+./src/sd-alsa/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/sd-alsa/sound.h:  * Copyright 1997 Bernd Schmidt
+./src/sd-alsa/sound.h:  * Copyright 2004 Heikki Orsila
+./src/gengenblitter.c:  * Copyright 1995,1996 Bernd Schmidt
+./src/gengenblitter.c:  * Copyright 1996 Alessandro Bissacco
+./src/od-linux/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/od-linux/memory.c:  * Copyright 2004 Richard Drummond
+./src/od-linux/memory.h:  * Copyright 1996 Bernd Schmidt
+./src/od-linux/blkdev-linux.c:  * Copyright 2006 Jochen Becher
+./src/od-linux/blkdev-linux.c:  * Copyright 2006 Richard Drummond
+./src/od-linux/hrtimer.h: * (c) 2005 Richard Drummond
+./src/tui.c:  * Copyright 1996 Tim Gunn, Bernd Schmidt
+./src/tui.c:	else switch (c) {
+./src/tui.c:	else switch (c) {
+./src/tui.c:	else switch (c) {
+./src/tui.c:	else switch (c) {
+./src/tui.c:	else switch (c) {
+./src/tui.c:	else switch (c) {
+./src/tui.c:	} else switch (c) {
+./src/tui.c:	    switch (c) {
+./src/tui.c:	    switch (c) {
+./src/scsiemul.c:  * Copyright 1995 Bernd Schmidt
+./src/scsiemul.c:  * Copyright 1999 Patrick Ohly
+./src/scsiemul.c:  * Copyright 2001 Brian King
+./src/scsiemul.c:  * Copyright 2002 Toni Wilen
+./src/md-generic/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/md-generic/rpt.h:  * Copyright 1998 Bernd Schmidt
+./src/md-generic/rpt.h:  * Copyright 2004 Richard Drummond
+./src/md-generic/support.c:  * Copyright 1996 Bernd Schmidt
+./src/md-generic/support.c:  * Copyright 2004-2005 Richard Drummond
+./src/md-generic/maccess.h:  * Copyright 1996 Bernd Schmidt
+./src/md-generic/m68k.h:  * Copyright 1996 Bernd Schmidt
+./src/md-generic/m68k.h:  * Copyright 2005-2007 Richard Drummond
+./src/svgancui.c:  * Copyright 1996 Bernd Schmidt
+./src/svgancui.c:	} else switch (c) {
+./src/svgancui.c:	    switch (c) {
+./src/gfx-sdl/sdlgfx.c:  * Copyright 2001 Bernd Lachner (EMail: dev@lachner-net.de)
+./src/gfx-sdl/sdlgfx.c:  * Copyright 2003-2007 Richard Drummond
+./src/gfx-sdl/sdlgfx.c:  * Copyright 2006 Jochen Becher
+./src/gfx-sdl/sdlgfx.c:  * Copyright 1995, 1996 Bernd Schmidt
+./src/gfx-sdl/sdlgfx.c:  * Copyright 1996 Ed Hanway, Andre Beck, Samuel Devulder, Bruno Coste
+./src/gfx-sdl/sdlgfx.c:  * Copyright 1998 Marcus Sundberg
+./src/gfx-sdl/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gfx-sdl/rawkeys.c:  * Copyright 2004 Richard Drummond
+./src/gfx-sdl/gfx.h:  * Copyright 2004 Richard Drummond
+./src/gfx-sdl/sdlkeys.c:  * Copyright 2004 Richard Drummond
+./src/gfx-sdl/sdlkeys.c:  * Copyright 2001 Bernd Lachner (EMail: dev@lachner-net.de)
+./src/gfx-sdl/sdlgfx.h: * Copyright 2004 Richard Drummond
+./src/genblitter.c:  * Copyright 1995,1996 Bernd Schmidt
+./src/genblitter.c:  * Copyright 1996 Alessandro Bissacco
+./src/jd-beos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/jd-beos/joystick.cpp: *  (c) Richard Drummond 2005
+./src/cfgfile.c:  * Copyright 1998 Brian King, Bernd Schmidt
+./src/cfgfile.c:  * Copyright 2006 Richard Drummond
+./src/cfgfile.c:    {"kickstart_rom_file", "Kickstart ROM image, (C) Copyright Amiga, Inc." },
+./src/cfgfile.c:    {"kickstart_ext_rom_file", "Extended Kickstart ROM image, (C) Copyright Amiga, Inc." },
+./src/cfgfile.c:    switch (c) {
+./src/expansion.c:  * Copyright 1996,1997 Stefan Reinauer <stepan@linux.de>
+./src/expansion.c:  * Copyright 1997 Brian King <Brian_King@Mitel.com>
+./src/writelog.c:  * Copyright 2001 Bernd Schmidt
+./src/writelog.c:  * Copyright 2006 Richard Drummond
+./src/gfx-amigaos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gfx-amigaos/ami-win.c:  * Copyright 1996,1997,1998 Samuel Devulder.
+./src/gfx-amigaos/ami-win.c:  * Copyright 2003-2007 Richard Drummond
+./src/gfx-amigaos/ami-appw.c:  * Copyright 1997 Samuel Devulder.
+./src/gfx-amigaos/gfx.h:  * Copyright 2004 Richard Drummond
+./src/blitter.c:  * (c) 1995 Bernd Schmidt, Alessandro Bissacco
+./src/blitter.c:  * (c) 2002 - 2005 Toni Wilen
+./src/blitter.c:		if (c) {
+./src/blitter.c:		} else if (c) {
+./src/gui-beos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gui-beos/gui.cpp:  * Copyright 2004 Richard Drummond
+./src/memory.c:  * (c) 1995 Bernd Schmidt
+./src/missing.c:  * Copyright 1997 Bernd Schmidt
+./src/drawing.c:  * Copyright 1995-2000 Bernd Schmidt
+./src/drawing.c:  * Copyright 1995 Alessandro Bissacco
+./src/drawing.c:  * Copyright 2000,2001 Toni Wilen
+./src/readcpu.c: * Copyright 1995,1996 Bernd Schmidt
+./src/caps/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/caps/caps.c: * Copyright 2004-2006 Richard Drummond
+./src/custom.c:  * Copyright 1995-2002 Bernd Schmidt
+./src/custom.c:  * Copyright 1995 Alessandro Bissacco
+./src/custom.c:  * Copyright 2000-2004 Toni Wilen
+./src/jd-sdl/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/jd-sdl/joystick.c:  * Copyright 1997 Bernd Schmidt
+./src/jd-sdl/joystick.c:  * Copyright 1998 Krister Walfridsson
+./src/jd-sdl/joystick.c:  * Copyright 2003-2005 Richard Drummond
+./src/fsdb_unix.c:  * Copyright 1999 Bernd Schmidt
+./src/uaelib.c: * (c) 1996 Tauno Taipaleenmaki <tataipal@raita.oulu.fi>
+./src/cia.c:  * Copyright 1995 Bernd Schmidt, Alessandro Bissacco
+./src/cia.c:  * Copyright 1996, 1997 Stefan Reinauer, Christian Schmitt
+./src/fdi2raw.c:  Copyright (c)	2001 by	Toni Wilen <twilen@arabuusimiehet.com>
+./src/fdi2raw.c:  Copyright (c)	2003-2004 by Toni Wilen	<twilen@arabuusimiehet.com>
+./src/fpp.c:  * Copyright 1996 Herman ten Brugge
+./src/gencomp.c: * Based on work Copyright 1995, 1996 Bernd Schmidt. Changes Copyright 2000
+./src/gui-none/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/gui-none/nogui.c:  * Copyright 1996 Bernd Schmidt
+./src/filesys_unix.c:  * Copyright 2004 Richard Drummond
+./src/filesys.c:  * Copyright 1996 Ed Hanway
+./src/filesys.c:  * Copyright 1996, 1997 Bernd Schmidt
+./src/filesys.c:  * Based on example code (c) 1988 The Software Distillery
+./src/akiko.c:  * Copyright 2001, 2002 Toni Wilen
+./src/td-amigaos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-amigaos/thread.h:  * Copyright 2003-2005 Richard Drummond
+./src/td-amigaos/thread.c:  * Copyright 2003-2005 Richard Drummond
+./src/td-sdl/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-sdl/thread.h:  * Copyright 1997, 2001 Bernd Schmidt
+./src/td-sdl/thread.c:  * Copyright 2004 Richard Drummond
+./src/fsusage.c:   Copyright (C) 1991, 1992, 1996 Free Software Foundation, Inc.
+./src/keymap/amiga_rawkeys.h:  * Copyright 2004-2005 Richard Drummond
+./src/keymap/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/keymap/keymap.c:  * Copyright 2004 Richard Drummond
+./src/keymap/quartz_rawkeys.h:  * Copyright 2004 Richard Drummond
+./src/keymap/hotkeys_common.h:  * Copyright 2004-2006 Richard Drummond
+./src/keymap/keymap_all.h:  * Copyright 2004-2005 Richard Drummond
+./src/keymap/beos_rawkeys.c:  * Copyright 2004 Richard Drummond
+./src/keymap/quartz_rawkeys.c:  * Copyright 2004 Richard Drummond
+./src/keymap/x11pc_rawkeys.h:  * Copyright 2004 Richard Drummond
+./src/keymap/x11pc_rawkeys.c:  * Copyright 2004-2005 Richard Drummond
+./src/keymap/keymap.h:  * Copyright 2004 Richard Drummond
+./src/keymap/amiga_rawkeys.c:  * Copyright 2004-2005 Richard Drummond
+./src/keymap/keymap_common.h:  * Copyright 2004 Richard Drummond
+./src/keymap/beos_rawkeys.h:  * Copyright 2004 Richard Drummond
+./src/sd-amigaos/sound.c:  * Copyright 1996, 1997, 1998 Samuel Devulder, Holger Jakob (AHI).
+./src/sd-amigaos/sound.c:  * Copyright 2004-2007 Richard Drummond
+./src/sd-amigaos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/sd-amigaos/sound.h:  * Copyright 1996, 1997, 1998 Samuel Devulder, Holger Jakob (AHI)
+./src/genlinetoscr.c: * (c) 2006 Richard Drummond
+./src/readdisk.c: * Copyright 1996 Bernd Schmidt
+./src/readdisk.c: * Copyright 1998 Jim Cooper
+./src/hardfile.c:  * Copyright 1995 Bernd Schmidt
+./src/sd-beos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/sd-beos/sound.cpp://  (c) 2004-2007 Richard Drummond
+./src/sd-beos/sound.cpp://  (c) 2000-2001 Axel D�fler
+./src/sd-beos/sound.cpp://  (c) 1999 Be/R4 Sound - Raphael Moll
+./src/sd-beos/sound.cpp://  (c) 1998-1999 David Sowsy
+./src/sd-beos/sound.h:  * Copyright 1996, 1997 Christian Bauer
+./src/sd-beos/sound.h:  * Copyright 2003-2004 Richard Drummond
+./src/debug.c:  * (c) 1995 Bernd Schmidt
+./src/jd-amigaos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/jd-amigaos/joystick.c:  * Copyright 1996, 1997 Samuel Devulder
+./src/jd-amigaos/joystick.c:  * Copyright 2003-2005 Richard Drummond
+./src/md-amd64-gcc/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/md-amd64-gcc/rpt.h:  * Copyright 2005 Richard Drummond
+./src/md-amd64-gcc/rpt.h:  * Copyright 1997, 1998 Bernd Schmidt
+./src/md-amd64-gcc/rpt.h:  * Copyright 2003-2005  Richard Drummond
+./src/md-amd64-gcc/support.c:  * Copyright 2005 Richard Drummond
+./src/md-amd64-gcc/maccess.h:  * Copyright 1996 Bernd Schmidt
+./src/md-amd64-gcc/m68kops.h: * (c) 2004-2005 Richard Drummond
+./src/md-amd64-gcc/machdep.h: * Copyright 2005 Richard Drummond
+./src/md-amd64-gcc/m68k.h:  * Copyright 1996 Bernd Schmidt
+./src/md-amd64-gcc/m68k.h:  * Copyright 2004-2007 Richard Drummond
+./src/dms/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-beos/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/td-beos/thread.h:  * Copyright 2004 Richard Drummond
+./src/td-beos/thread.c:  * Copyright 2004 Richard Drummond
+./src/sd-sdl/sound.c:  * Copyright 1997 Bernd Schmidt
+./src/sd-sdl/sound.c:  * Copyright 2003-2006 Richard Drummond
+./src/sd-sdl/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/sd-sdl/sound.h:  * Copyright 1997 Bernd Schmidt
+./src/jd-none/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/jd-none/joystick.c:  * Copyright 1997 Bernd Schmidt
+./src/jd-none/joystick.c:  * Copyright 2003-2005 Richard Drummond
+./src/hardfile_unix.c:  * Copyright 2003-2006 Richard Drummond
+./src/events.c:  * Copyright 1995-1998 Bernd Schmidt
+./src/events.c:  * Copyright 2004-2005 Richard Drummond
+./src/driveclick.c:  * Copyright 2004 James Bagg, Toni Wilen
+./src/od-amiga/blkdev-amiga.c:  * Copyright 2005-2006 Richard Drummond
+./src/od-amiga/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/od-amiga/ami-disk.c:  * Copyright 1996 Samuel Devulder.
+./src/od-amiga/support.c:  * Copyright 2003-2005 Richard Drummond
+./src/od-amiga/main.c: * Copyright 2004-2006 Richard Drummond
+./src/od-amiga/memory.c:  * Copyright 2004 Richard Drummond
+./src/od-amiga/memory.h:  * Copyright 1996 Bernd Schmidt
+./src/od-amiga/scc:# (c) 1997 by Samuel Devulder.
+./src/od-amiga/hrtimer.h: * (c) 2005 Richard Drummond
+./src/picasso96.c: * Copyright 1997-2001 Brian King <Brian_King@Mitel.com, Brian_King@Cloanto.com>
+./src/picasso96.c: * Copyright 2000-2001 Bernd Roesch
+./src/picasso96.c: * Copyright 2003-2005 Richard Drummond
+./src/sd-uss/sound.c:  * Copyright 1997 Bernd Schmidt
+./src/sd-uss/sound.c:  * Copyright 2003-2007 Richard Drummond
+./src/sd-uss/Makefile.in:# Copyright 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003
+./src/sd-uss/sound.h:  * Copyright 1997 Bernd Schmidt
+./src/build68k.c: * Copyright 1995,1996 Bernd Schmidt
+./src/inputdevice.c:  * Copyright 2001-2006 Toni Wilen
+./src/autoconf.c:  * Copyright 1995, 1996 Bernd Schmidt
+./src/autoconf.c:  * Copyright 1996 Ed Hanway
